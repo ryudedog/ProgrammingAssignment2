@@ -3,11 +3,9 @@
 ##
 ## Matrix inversion is usually a costly computation and their may be
 ## some benefit to caching the inverse of a matrix rather than compute
-## it repeatedly (there are also alternatives to matrix inversion that
-## we will not discuss here). Your assignment is to write a pair of
-## functions that cache the inverse of a matrix.
-##
-## The functions assume that the supplied matrix is always invertable.
+## it repeatedly.  The enclosed functions provide caching of the inverse
+## of a matrix.  The functions assume that the supplied matrix is
+## always invertable.
 ##
 
 ## Write a short comment describing this function
